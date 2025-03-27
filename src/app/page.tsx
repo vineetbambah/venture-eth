@@ -34,14 +34,14 @@ export default function Home() {
     const init = async () => {
       if (typeof window.ethereum !== "undefined") {
         try {
-          const provider = new ethers.BrowserProvider(window.ethereum)
-          setProvider(provider)
+          const newProvider = new ethers.BrowserProvider(window.ethereum)
+          setProvider(newProvider)
 
-          const signer = await provider.getSigner()
+          const signer = await newProvider.getSigner()
           setSigner(signer)
 
           // Get account
-          const accounts = await provider.listAccounts()
+          const accounts = await newProvider.listAccounts()
           if (accounts.length > 0) {
             setAccount(accounts[0].address)
           }
