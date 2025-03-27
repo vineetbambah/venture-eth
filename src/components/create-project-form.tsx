@@ -128,7 +128,7 @@ export default function CreateProjectForm({ onSubmit }: CreateProjectFormProps) 
         <CardFooter>
           <Button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-lg hover:shadow-purple-500/25 transition-all duration-300 border border-purple-400/20"
+            className="w-full bg-gradient-to-r mt-8 from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-lg hover:shadow-purple-500/25 transition-all duration-300 border border-purple-400/20"
           >
             <Zap className="h-4 w-4 mr-2" />
             Create Project
