@@ -184,7 +184,7 @@ export default function Home() {
             </h1>
             <div className="flex items-center justify-center gap-2 mb-8">
               <Zap className="h-5 w-5 text-blue-400" />
-              <p className="text-xl text-blue-100"></p>
+              <p className="text-xl text-blue-100">Raise funds without intermediaries. Govern projects on-chain. Back ideas with full transparency.</p>
             </div>
           </div>
 
@@ -205,15 +205,15 @@ export default function Home() {
             <TabsList className="grid w-full grid-cols-2 mb-8 bg-gray-800/50 backdrop-blur-sm border border-gray-700/50">
               <TabsTrigger
                 value="browse"
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500/20 data-[state=active]:to-blue-500/20 data-[state=active]:text-white"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500/20 data-[state=active]:to-blue-500/20 text-white "
               >
-                Browse Projects
+                💰 Invest in Innovation
               </TabsTrigger>
               <TabsTrigger
                 value="create"
-                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500/20 data-[state=active]:to-blue-500/20 data-[state=active]:text-white"
+                className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500/20 data-[state=active]:to-blue-500/20 text-white "
               >
-                Create Project
+                🔗 Launch a Campaign
               </TabsTrigger>
             </TabsList>
 
